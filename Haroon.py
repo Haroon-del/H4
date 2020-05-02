@@ -37,7 +37,7 @@ def cetak(b):
     for i in w:
         j = w.index(i)
         x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-    x += '\033()
+   
 		time.sleep(0.0001)
 
 #Dev:love_hacker
