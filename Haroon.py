@@ -141,9 +141,10 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning: \033[1;95mTermux  All version Work✅' )                 
+		
+(' \033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
+		(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
+		(' \033[1;91mWarning: \033[1;95mTermux  All version Work✅' )                 
 		print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mMr. HaroOn\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		print('	   \033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
 		print('	' )
