@@ -124,6 +124,8 @@ while (loop == 'true'):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:love_hacker
+            os.system('xdg-open https://m.youtube.com/channel/UCtf3TWfdmNJdDEPMY6-NXNA')
+
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -143,11 +145,11 @@ def login():
 		print logo
 		
 (' \033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
-		(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
-		(' \033[1;91mWarning: \033[1;95mTermux  All version Work✅' )                 
+		('\033[1;91mWarning: \033[1;95mUse a New Account To Login' )
+		('\033[1;91mWarning: \033[1;95mTermux  All version Work✅' )                 
 		print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mMr. HaroOn\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('	   \033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
-		print('	' )
+		print('\033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
+
 		id = raw_input('\033[1;91m[+] \x1b[1;91mID/Email\x1b[1;95m: \x1b[1;95m')
 		pwd = raw_input('\033[1;91m[+] \x1b[1;91mPassword\x1b[1;95m: \x1b[1;95m')
 		tik()
